@@ -48,7 +48,7 @@ namespace BlackJack
                                 Console.WriteLine("");
                                 break;
                             }
-                            Console.WriteLine("Vill du dra ett till kort? (j/n");
+                            Console.WriteLine("Vill du dra ett till kort? (j/n)");
                             Console.WriteLine("");
                             string spelval = Console.ReadLine().ToLower();
                             while ( spelval == "j")
