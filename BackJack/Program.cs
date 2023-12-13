@@ -111,7 +111,7 @@ namespace BlackJack
 
                     case "3":
                             Console.WriteLine("");
-                            Console.WriteLine("Ditt mål är att få så nära 21 poäng du kan utan att överstiga det. Datorn har exakt samma mål som dig och ifall datorn är närmare 21 än dig förlorar du.\\nFör varje nytt kort du väljer kommer du få mellan 1-10 poäng."); 
+                            Console.WriteLine("Ditt mål är att få så nära 21 poäng du kan utan att överstiga det. Datorn har exakt samma mål som dig och ifall datorn är närmare 21 än dig förlorar du. För varje nytt kort du väljer kommer du få mellan 1-11 poäng."); 
                             Console.WriteLine("");
                     break;
 
