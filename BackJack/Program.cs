@@ -71,9 +71,9 @@ namespace BlackJack
                             }
                             Console.WriteLine("Vill du dra ett till kort? (j/n)");
                             Console.WriteLine("");
-                            spelval = Console.ReadLine().ToLower();
+                            spelval = Console.ReadLine().ToLower(); 
                         }
-                        while (sumdatordrag < 18 && sumspelardrag <= 22)
+                        while (sumdatordrag < 18 && sumspelardrag < 22)
                         {
                             int datordrag3 = slump.Next(1, 12);
                             Console.WriteLine("Datorn drog ett kort värt: " + datordrag3);
